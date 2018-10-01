@@ -5,19 +5,19 @@ import java.io.PrintWriter;
 
 public class NightChanges {
 
-	private static Reader in;
-	private static PrintWriter out;
+	private static Reader fastinput;
+	private static PrintWriter fastoutput;
     
 	public static void main(String[] args) throws IOException {
 
-		in = new Reader();
-		out = new PrintWriter (System.out, true);
+		fastinput = new Reader();
+		fastoutput = new PrintWriter (System.out, true);
 		//------------
 		
 		
 		
-		out.close();
-		in.close();
+		fastoutput.close();
+		fastinput.close();
 	}
 
 	static class Reader {
